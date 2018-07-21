@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3_1_B/sd3_1_B.sim/sim_1/synth/func/xsim/sd3_1_B_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd3_1_B
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3_1_B/sd3_1_B.srcs/sim_1/new/CLK.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLK
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3_1_B/sd3_1_B.srcs/sim_1/new/sd3_1_B_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd3_1_B_sim

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1528348478">
+  <File Type="PA-DCP" Name="sd3_1_B.dcp"/>
+  <File Type="PA-TCL" Name="sd3_1_B.tcl"/>
+  <File Type="PLACE-DCP" Name="sd3_1_B_placed.dcp"/>
+  <File Type="REPORTS-TCL" Name="sd3_1_B_reports.tcl"/>
+  <File Type="PWROPT-DCP" Name="sd3_1_B_pwropt.dcp"/>
+  <File Type="OPT-DCP" Name="sd3_1_B_opt.dcp"/>
+  <File Type="OPT-DRC" Name="sd3_1_B_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="sd3_1_B.hwdef"/>
+  <File Type="RDI-RDI" Name="sd3_1_B.vdi"/>
+  <File Type="PLACE-IO" Name="sd3_1_B_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="sd3_1_B_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sd3_1_B_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="sd3_1_B_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sd3_1_B_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sd3_1_B_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="sd3_1_B_physopt.dcp"/>
+  <File Type="BG-BIT" Name="sd3_1_B.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="sd3_1_B_route_status.pb"/>
+  <File Type="BG-BIN" Name="sd3_1_B.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sd3_1_B_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="sd3_1_B.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="sd3_1_B_timing_summary_routed.pb"/>
+  <File Type="BITSTR-RBT" Name="sd3_1_B.rbt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sd3_1_B_timing_summary_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="sd3_1_B.nky"/>
+  <File Type="BITSTR-BMM" Name="sd3_1_B_bd.bmm"/>
+  <File Type="ROUTE-CLK" Name="sd3_1_B_clock_utilization_routed.rpt"/>
+  <File Type="BG-DRC" Name="sd3_1_B.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sd3_1_B_routed_error.dcp"/>
+  <File Type="BITSTR-MMI" Name="sd3_1_B.mmi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sd3_1_B_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BGN" Name="sd3_1_B.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sd3_1_B_routed_bb.dcp"/>
+  <File Type="BITSTR-SYSDEF" Name="sd3_1_B.sysdef"/>
+  <File Type="BITSTR-LTX" Name="sd3_1_B.ltx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sd3_1_B_postroute_physopt.dcp"/>
+  <File Type="ROUTE-STATUS" Name="sd3_1_B_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="sd3_1_B_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="sd3_1_B_power_summary_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sd3_1_B_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="sd3_1_B_power_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="sd3_1_B_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sd3_1_B_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-PB" Name="sd3_1_B_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sd3_1_B_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="sd3_1_B_drc_routed.rpt"/>
+  <File Type="ROUTE-DCP" Name="sd3_1_B_routed.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/T.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sd3_1_B.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sd3_1_B"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/sd3_1_B_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

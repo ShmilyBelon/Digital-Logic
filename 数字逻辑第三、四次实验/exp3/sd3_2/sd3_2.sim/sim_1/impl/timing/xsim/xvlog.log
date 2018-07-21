@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3_2/sd3_2.sim/sim_1/impl/timing/xsim/sd3_2_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module JK
+INFO: [VRFC 10-311] analyzing module JK_0
+INFO: [VRFC 10-311] analyzing module JK_1
+INFO: [VRFC 10-311] analyzing module JK_2
+INFO: [VRFC 10-311] analyzing module sd3_2
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3_2/sd3_2.srcs/sim_1/new/sd3_2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sd3_2_tb

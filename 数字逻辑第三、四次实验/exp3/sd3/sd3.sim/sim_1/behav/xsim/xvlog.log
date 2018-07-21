@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3/sd3.srcs/sources_1/new/sd3_des.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/shmilybelon/Desktop/digital_logic/exp3_4/sd3/sd3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

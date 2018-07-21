@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 14 09:36:31 2018
+# Process ID: 2385
+# Current directory: /home/shmilybelon/Desktop/digital_logic/exp3_4/sd3/sd3.runs/synth_1
+# Command line: vivado -log mux_latch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_latch.tcl
+# Log file: /home/shmilybelon/Desktop/digital_logic/exp3_4/sd3/sd3.runs/synth_1/mux_latch.vds
+# Journal file: /home/shmilybelon/Desktop/digital_logic/exp3_4/sd3/sd3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source mux_latch.tcl -notrace

@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4025089728554737431  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 88e10eff94b448bbb955769537dcf181 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mux_latch_behav xil_defaultlib.mux_latch xil_defaultlib.glbl" , 
+    buildDate : "Dec 15 2017" , 
+    buildTime : "20:57:24" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/mux_latch_behav/xsimk\"   \"xsim.dir/mux_latch_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/mux_latch_behav/obj/xsim_1.lnx64.o\" \"/home/shmilybelon/Software/Vivado/Vivado/2017.4/lib/lnx64.o/librdi_simulator_kernel.so\" \"/home/shmilybelon/Software/Vivado/Vivado/2017.4/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

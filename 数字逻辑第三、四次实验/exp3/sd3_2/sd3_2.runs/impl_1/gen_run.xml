@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1528380365">
+  <File Type="ROUTE-DCP" Name="sd3_2_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="sd3_2_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="sd3_2_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="sd3_2_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="sd3_2_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="sd3_2_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR" Name="sd3_2_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="sd3_2_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="sd3_2_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="sd3_2_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="sd3_2_route_status.rpt"/>
+  <File Type="BG-BIT" Name="sd3_2.bit"/>
+  <File Type="ROUTE-STATUS-PB" Name="sd3_2_route_status.pb"/>
+  <File Type="PHYSOPT-DCP" Name="sd3_2_physopt.dcp"/>
+  <File Type="PLACE-CTRL" Name="sd3_2_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="sd3_2_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="sd3_2_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="sd3_2_io_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="sd3_2_postplace_pwropt.dcp"/>
+  <File Type="RDI-RDI" Name="sd3_2.vdi"/>
+  <File Type="OPT-HWDEF" Name="sd3_2.hwdef"/>
+  <File Type="BITSTR-SYSDEF" Name="sd3_2.sysdef"/>
+  <File Type="PLACE-DCP" Name="sd3_2_placed.dcp"/>
+  <File Type="PA-TCL" Name="sd3_2.tcl"/>
+  <File Type="BITSTR-MSK" Name="sd3_2.msk"/>
+  <File Type="ROUTE-TIMING-PB" Name="sd3_2_timing_summary_routed.pb"/>
+  <File Type="BITSTR-RBT" Name="sd3_2.rbt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="sd3_2_timing_summary_routed.rpx"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="sd3_2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-DCP" Name="sd3_2_opt.dcp"/>
+  <File Type="BITSTR-MMI" Name="sd3_2.mmi"/>
+  <File Type="REPORTS-TCL" Name="sd3_2_reports.tcl"/>
+  <File Type="PWROPT-DCP" Name="sd3_2_pwropt.dcp"/>
+  <File Type="BITSTR-LTX" Name="sd3_2.ltx"/>
+  <File Type="OPT-DRC" Name="sd3_2_drc_opted.rpt"/>
+  <File Type="BG-BIN" Name="sd3_2.bin"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="sd3_2_timing_summary_routed.rpt"/>
+  <File Type="BITSTR-NKY" Name="sd3_2.nky"/>
+  <File Type="BITSTR-BMM" Name="sd3_2_bd.bmm"/>
+  <File Type="ROUTE-CLK" Name="sd3_2_clock_utilization_routed.rpt"/>
+  <File Type="BG-DRC" Name="sd3_2.drc"/>
+  <File Type="ROUTE-ERROR-DCP" Name="sd3_2_routed_error.dcp"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="sd3_2_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BGN" Name="sd3_2.bgn"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="sd3_2_routed_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="sd3_2_postroute_physopt.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/JK.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sd3_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="sd3_2"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/sd3_2_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream" PreStepTclHook="/home/shmilybelon/Desktop/digital_logic/Experiment3/a.tcl"/>
+  </Strategy>
+</GenRun>

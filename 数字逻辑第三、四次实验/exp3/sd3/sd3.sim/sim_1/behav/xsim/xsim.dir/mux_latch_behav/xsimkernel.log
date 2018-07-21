@@ -1,0 +1,7 @@
+Running: xsim.dir/mux_latch_behav/xsimk -simmode gui -wdb mux_latch_behav.wdb -simrunnum 0 -socket 47035
+Design successfully loaded
+Design Loading Memory Usage: 46780 KB (Peak: 46900 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 128516 KB (Peak: 194052 KB)
+Simulation CPU Usage: 20 ms

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sd3_2_tb_time_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sd3_2_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="488343560fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="110"></NameColumnWidth>
+      <ValueColumnWidth column_width="60"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="logic" fp_name="/sd3_2_tb/X">
+      <obj_property name="ElementShortName">X</obj_property>
+      <obj_property name="ObjectShortName">X</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sd3_2_tb/Z">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sd3_2_tb/q1">
+      <obj_property name="ElementShortName">q1</obj_property>
+      <obj_property name="ObjectShortName">q1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sd3_2_tb/q2">
+      <obj_property name="ElementShortName">q2</obj_property>
+      <obj_property name="ObjectShortName">q2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sd3_2_tb/q3">
+      <obj_property name="ElementShortName">q3</obj_property>
+      <obj_property name="ObjectShortName">q3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/sd3_2_tb/q4">
+      <obj_property name="ElementShortName">q4</obj_property>
+      <obj_property name="ObjectShortName">q4</obj_property>
+   </wvobject>
+</wave_config>
